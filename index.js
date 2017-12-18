@@ -29,11 +29,12 @@ const facts = [
 var i = 0
 
 function johnLennonFacts(arrayOfFacts) {
+  var newArray = [];
   while (i < 4) {
-    arrayOfFacts[i] = `${arrayOfFacts[i]}` + `!!!`
+    newArray.push(arrayOfFacts[i] + "!!!");
     i++;
   }
-  return arrayOfFacts;
+  return newArray;
 }
 
 function iLoveTheBeatles(number) {
